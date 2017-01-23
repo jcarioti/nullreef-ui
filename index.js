@@ -3,8 +3,12 @@ const app = express();
 app.engine('html', require('ejs').renderFile);
 app.use(express.static('public'));
 
+// app.get('/', (req, res) => {
+//   res.render('index.ejs', { transparentNavbar: true });
+// });
+
 app.get('/', (req, res) => {
-  res.render('index.ejs', { transparentNavbar: true });
+  res.render('nullreef.html');
 });
 
 app.get('/live', (req, res) => {
