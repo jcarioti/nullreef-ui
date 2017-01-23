@@ -1,0 +1,11 @@
+.navbar a {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, .6);
+  padding: .2rem 1.5rem;
+}
+
+#logo {
+  font-size: 1.3rem;
+  color: white;
+}
