@@ -1,3 +1,5 @@
+killall node
+
 echo "Installing latest dependencies..."
 
 npm install
