@@ -1,10 +1,11 @@
-/**{
+*{
   border: 1px solid red;
-}*/
+}
 
 body {
-/*height: 1000px;
-width: 100%;*/
+background-color: #edeff0!important; /*#292b2c*/
+height: auto;
+width: 100%;
 margin: auto;
 position: relative;
 }
@@ -38,16 +39,21 @@ position: relative;
   color:#FFB87D;
 }
 
-.hero {
-  background-image:
+.jumbotron {
+  background-image: url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover!important;
+  margin:auto;
+  height: 750px!important;
+  margin-bottom: 0px!important;
 }
 
 .livestream{
-  margin: 10px;
+  margin: 0px;
 }
 
 .bg {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   z-index: -1;
@@ -57,6 +63,10 @@ position: relative;
 .bg iframe {
   width: 100%;
   height: 100%;
+  max-height: 750px;
+}
+.bg-inverse{
+  opacity: .85;
 }
 
 .pin-right {
@@ -64,4 +74,17 @@ position: relative;
   right: 0px;
   margin-top: 3px;
   position: absolute;
+}
+
+.contain{
+  height: 1000px;
+  /*margin-top: 0px;*/
+}
+.pod{
+background-color: #B0D9ED;
+max-width: 75%;
+height: 250px;
+margin: auto;
+border: 1px solid;
+opacity: .95;
 }

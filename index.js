@@ -12,15 +12,15 @@ app.get('/', (req, res) => {
 });
 
 app.get('/live', (req, res) => {
-  res.render('livestream.html');
+  res.render('livestream.ejs');
 });
 
 app.get('/photos', (req, res) => {
-  res.render('photos.html');
+  res.render('photos.ejs');
 });
 
 app.get('/contact', (req, res) => {
-  res.render('contact.html');
+  res.render('contact.ejs');
 });
 
 app.listen(8000);
