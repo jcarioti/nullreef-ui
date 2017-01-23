@@ -8,7 +8,7 @@ app.use(express.static('public'));
 // });
 
 app.get('/', (req, res) => {
-  res.render('nullreef.html');
+  res.render('nullreef.ejs');
 });
 
 app.get('/live', (req, res) => {
