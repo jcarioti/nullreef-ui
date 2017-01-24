@@ -12,7 +12,11 @@ app.get('/', (req, res) => {
 });
 
 app.get('/live', (req, res) => {
-  res.render('livestream.ejs');
+  const pageSettings = {
+    transparentNavbar: true,
+  };
+  res.render('livestream.ejs', pageSettings);
+
 });
 
 app.get('/photos', (req, res) => {

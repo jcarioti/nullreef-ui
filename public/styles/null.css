@@ -1,9 +1,9 @@
 /* *{
   border: 1px solid red;
-} */
+}*/
 
 body {
-background-color: #edeff0!important; /*#292b2c*/
+background-color: ##292b2c!important; /*#292b2c*/
 height: auto;
 width: 100%;
 margin: auto;
@@ -13,7 +13,6 @@ position: relative;
 .navbar{
   width:100%;
 }
-
 
 #homelink{
   font-size: 2.5em;
@@ -32,7 +31,8 @@ position: relative;
 
 .select{
   display: inline-block;
-  color: rgba(249, 250, 236, .4);
+  color: rgba(249, 250, 236, .8);
+  text-shadow: 0px 0px 5px #000000;
   padding: 15px 20px;
 }
 .select:hover{
@@ -44,7 +44,8 @@ position: relative;
   background-repeat: no-repeat;
   background-size: cover!important;
   margin:auto;
-  height: 750px!important;
+  /*height: 700px!important;*/
+  height: 100%!important;
   margin-bottom: 0px!important;
 }
 
@@ -78,6 +79,7 @@ position: relative;
 
 .contain{
   height: 1000px;
+  padding-top: 25px;
   /*margin-top: 0px;*/
 }
 .pod{
@@ -87,4 +89,14 @@ height: 250px;
 margin: auto;
 border: 1px solid;
 opacity: .95;
+}
+
+.foot {
+  background-color: #292b2c;
+  opacity: .8;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  margin-left: 0px!important;
+  padding-top: 15px;
 }
