@@ -67,9 +67,10 @@ position: relative;
   overflow: scroll;
 }
 #gallery{
-  margin-top: 51px;
+  padding-top: 51px;
+  position: fixed;
   padding-bottom: 10px;
-  height: 750px;
+  height: 100%;
 }
 
 .bg-inverse{
