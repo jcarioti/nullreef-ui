@@ -45,8 +45,7 @@ position: relative;
   background-repeat: no-repeat;
   background-size: cover!important;
   margin:auto;
-  /*height: 700px!important;*/
-  height: 100%!important;
+  height: 100%;
   margin-bottom: 0px!important;
 }
 
@@ -124,11 +123,12 @@ p {
 .contact{
   margin-top: 200px;
   opacity: .8;
+  display: flex;
 }
 
 .content {
   background-color:#292b2c;
-  width: 50%;
+  width: 20%;
   min-width: 200px;
   margin: 30px auto;
   padding: 20px 30px;
