@@ -1,0 +1,210 @@
+/**{
+border: 1px solid red;
+}*/
+
+
+body {
+  color: #41292C;
+  font-family: 'Covered By Your Grace', sans-serif;
+  /*font-size: 100px;*/
+  /*line-height: 76px;*/
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top:40%;
+  background-color: #c5c4c6;
+}
+
+h1 {
+  color: #800000;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  /*top: 20%;*/
+  /*width: 40%;
+  height: 3%;*/
+  min-height:10px;
+  min-width: 150px;
+}
+
+/** List style **/
+
+h2 {
+  color: #800000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: maroon;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: center;
+
+}
+
+a {
+  color: #800000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  word-spacing: -1px;
+}
+
+img{
+border-radius:10px;
+}
+
+.retain a {
+color: maroon;
+}
+.retain p {
+  min-width: 265px;
+}
+
+.bodycontainer {
+  width: 80%;
+  margin: 10px auto;
+  padding: 1.05%;
+}
+
+.logo_cascade {
+width: 100%;
+}
+.logo_cascade img {
+  padding: 10px;
+}
+
+.blur {
+  margin: 10px;
+  /*filter: blur(10px);*/
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+.bg iframe {
+  width: 100%;
+  height: 100%;
+}
+.content {
+  margin: 10px auto;
+  width: 80%;
+
+}
+
+.galleria {
+  overflow-x: auto;
+  padding: 20px 0px;
+  margin: auto;
+  width: 800px;
+  height: 650px;
+  transition: width 2s;
+}
+
+.galleria-strip{
+  overflow-x: auto;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  flex-direction: row;
+  transition: width 2s;
+}
+
+.galleria img, .galleria-strip img {
+  width: 150px;
+  height: 125px;
+  margin: 5px;
+}
+.img-box{
+  display: inline-block;
+}
+
+.pod{
+margin: 10px auto;
+width: 50%;
+padding: 1.05%;
+/*overflow: scroll;*/
+}
+
+.retain {
+  border: 2px solid #e5e5e5;
+  padding-top: 15px;
+  margin: 5px 0px;
+  text-align: center;
+  line-height: 12px;
+}
+/** Header styles **/
+
+.header {
+  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  height: 400px;
+  background-position: center center;
+}
+
+.sidenav {
+  font-family: 'Covered By Your Grace', sans-serif;
+  align-items: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  word-spacing: 15px;
+  color: black;
+  width: 100%;
+  margin: 10 auto;
+  display: inline-block;
+}
+
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+  width: 100%;
+  max-width: 43px;
+  max-height: 43px;
+}
+
+.display_img img{
+  height: 500px;
+  width: auto;
+}
