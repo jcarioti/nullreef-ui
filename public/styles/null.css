@@ -3,21 +3,11 @@
 }*/
 
 body {
-background-color: ##292b2c!important; /*#292b2c*/
+background-color: #292b2c!important; /*#292b2c*/
 height: auto;
 width: 100%;
 margin: auto;
 position: relative;
-}
-
-.navbar{
-  width:100%;
-}
-
-#homelink{
-  font-size: 2.5em;
-  left:0px;
-  padding: 0px;
 }
 
 .pull-down{
@@ -29,28 +19,18 @@ position: relative;
   height:7%;
 }*/
 
-.select{
-  font-size: 1.25em;
-  display: inline-block;
-  color: rgba(249, 250, 236, .8);
-  text-shadow: 0px 0px 5px #000000;
-  padding: 10px 20px;
-}
-.select:hover{
-  color:#FFB87D;
-}
+/*------------------------------------------
+
+   ### JUMBOTRON STYING START ### */
+
 
 .jumbotron {
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/prismacoralbg.jpeg);
   background-repeat: no-repeat;
   background-size: cover!important;
   margin:auto;
   height: 100%;
   margin-bottom: 0px!important;
-}
-
-.livestream{
-  margin: 0px;
 }
 
 .bg {
@@ -61,29 +41,54 @@ position: relative;
   width: 100%;
   height: 100%;
 }
-.bg iframe {
-  width: 100%;
-  height: 100%;
-  overflow: scroll;
-}
+    /*### JUMOBOTRON STYING END ###
+
+------------------------------------------
+
+   ### NAVIGATION STYING START ### */
+
+   #homelink{
+     font-size: 2.5em;
+     left:0px;
+     padding: 0px;
+   }
+
+   .select{
+     font-size: 1.25em;
+     display: inline-block;
+     color: rgba(249, 250, 236, .8);
+     text-shadow: 0px 0px 5px #000000;
+     padding: 10px 20px;
+   }
+   .select:hover{
+     color:#FFB87D;
+   }
+   .bg-inverse{
+     opacity: .85;
+   }
+
+   .pin-right {
+     float:none;
+     right: 0px;
+     margin-top: 3px;
+     position: absolute;
+   }
+
+   .navbar{
+     width:100%;
+   }
+   /*### NAVIGATION STYING END ###
+
+------------------------------------------
+
+   ### PHOTO STYLING START ###*/
+
 #gallery{
   padding-top: 51px;
   position: fixed;
   padding-bottom: 10px;
   height: 100%;
 }
-
-.bg-inverse{
-  opacity: .85;
-}
-
-.pin-right {
-  float:none;
-  right: 0px;
-  margin-top: 3px;
-  position: absolute;
-}
-
 .contain{
   height: 100%;
   padding-top: 25px;
@@ -94,6 +99,111 @@ position: relative;
   height: 100%;
   width: 100%;
 }
+
+
+   /*### PHOTO STYLING END ###
+
+------------------------------------------
+
+   ### LIVESTREAM STYING START ### */
+   .bg iframe {
+     width: 100%;
+     height: 100%;
+     overflow: scroll;
+   }
+   .livestream{
+     margin: 0px;
+   }
+   /*### LIVESTREAM STYING END ###
+
+------------------------------------------
+
+   ### CONTACT STYING START ###*/
+
+   .contact{
+     margin-top: 200px;
+     opacity: .8;
+     width: 100%;
+     display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+   }
+
+.contact_info{
+  color: rgba(249, 250, 236, .8);
+  opacity: .9;
+}
+
+   /*### CONTACT CSS BEGIN ###*/
+
+
+   #img_cont {
+     display: table;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     line-height: 33px;
+     margin: 4px 5px;
+   }
+
+   #img_cont a {
+     display: table-cell;
+     text-align: center;
+     /*width: 16%;*/
+   }
+
+   #img_cont img {
+     width: 100%;
+     max-width: 43px;
+     max-height: 43px;
+   }
+
+   i {
+     font-size: 45px!important;
+     color:rgba(249, 250, 236, .8);
+     opacity: .9;
+   }
+   #instagram:hover{
+     background: -webkit-linear-gradient(right top, #4c68d7, #8a3ab9, #bc2a8d, #cd486b, #fccc63);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
+   #facebook:hover{
+     color: 	#3b5998;
+   }
+   #twitter:hover{
+     color: #55acee;
+   }
+
+   .retain {
+     width: 95%;
+     margin: auto;
+     text-align: center;
+     line-height: 12px;
+   }
+
+   .content {
+     color: rgba(249, 250, 236, .8);
+     opacity: .9;
+     background-color:#292b2c;
+     border: 1px solid rgba(249, 250, 236, .8);
+     min-width: 25px;
+     position: fixed;
+     top: 30%;
+     right:5px;
+     padding: 4px;
+   }
+
+      /*### CONTACT CSS END ###   */
+
+   /*-----------------------------------------------*/
+
+   /*### CONTACT STYING END ###
+
+------------------------------------------*/
 
 .pod{
 background-color: #B0D9ED;
@@ -121,17 +231,6 @@ p {
   text-align: center;
 }
 
-.contact{
-  margin-top: 200px;
-  opacity: .8;
-  display: flex;
-}
-
-.content {
-  background-color:#292b2c;
-  width: 20%;
-  min-width: 200px;
-  margin: 30px auto;
-  padding: 20px 30px;
-  border: 1px dashed white;
+.inner{
+  display:none!important;
 }
