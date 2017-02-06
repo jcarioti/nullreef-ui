@@ -68,10 +68,12 @@ position: relative;
    }
 
    .pin-right {
-     float:none;
-     right: 0px;
-     margin-top: 3px;
+     right: -25px;
+     top: -3px;
      position: absolute;
+   }
+   .pin-left {
+
    }
 
    .navbar{
