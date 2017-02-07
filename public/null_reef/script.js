@@ -1,18 +1,25 @@
 $(document).ready(function () {
-  $(".galleria-strip img").click(transition)
+  $(".group img").click(transition)
   // $("#UNDEFINED").click(transition_back);
-
+  $("button.close").click(transition_back)
 });
 
 function transition(){
   var src=$(this).attr("src");
   $(".display_img img").attr("src", src);
+  $(".display_img").show();
   console.log(src)
-  $(".galleria").addClass("galleria-strip");
-  $(".galleria").removeClass("galleria");
+  $(".group").addClass("galleria-strip");
+  $(".group").removeClass("galleria");
 }
 
 function transition_back(){
-$(".galleria-strip").addClass("galleria");
-$(".galleria-strip").removeClass("galleria-strip");
+$(".display_img").hide();
+// $("")
+$(".group").addClass("galleria");
+$(".group").removeClass("galleria-strip");
+}
+
+function hide_display(){
+  $(".display_img").hide();
 }

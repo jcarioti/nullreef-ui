@@ -83,9 +83,10 @@ position: relative;
 
 ------------------------------------------
 
-   ### PHOTO STYLING START ###*/
+   ### PHOTO STYLING START ###
+   ### STYLE FOR IFRAME GALLERY ###*/
 
-#gallery{
+/*#gallery{
   padding-top: 51px;
   position: fixed;
   padding-bottom: 10px;
@@ -94,13 +95,14 @@ position: relative;
 .contain{
   height: 100%;
   padding-top: 25px;
-  /*margin-top: 0px;*/
 }
 
 .contain iframe{
   height: 100%;
   width: 100%;
-}
+}*/
+    /*###  STYLE FOR SELF-MADE GALLERY  ###*/
+
 
 
    /*### PHOTO STYLING END ###

@@ -3,7 +3,7 @@
 
 <html>
     <head >
-        <link rel="stylesheet" type="text/css" href="testing.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script
           src="https://code.jquery.com/jquery-3.1.1.slim.js"
           integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
@@ -33,11 +33,15 @@
               <a href="contact.html">Contact</a>
               <!--<a href="test.html">Test'n</a>-->
            </div>
+
            <div class="container display_img">
-                <img src="galleria/images/coral2.jpg">
+              <button id="close_display" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+              </button>
+              <img src="galleria/images/coral2.jpg">
            </div>
 
-            <div class="galleria-strip">
+            <div class="galleria-strip group">
                 <div class="img-box"><img src="galleria/images/coral.jpg"></div>
                 <div class="img-box"><img src="galleria/images/coral1.jpg"></div>
                 <div class="img-box"><img src="galleria/images/coral2.jpg"></div>
@@ -100,12 +104,10 @@
                 <div class="img-box"><img src="galleria/images/coral59.jpg"></div>
                 <div class="img-box"><img src="galleria/images/coral60.jpg"></div> -->
             </div>
-            <script>
-            (function() {
-                Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-                Galleria.run('.galleria');
-            }());
-            </script>
+          <script>
+
+          </script>
+
         <!-- </div> -->
     </body>
 </html>

@@ -128,7 +128,7 @@ width: 100%;
   overflow-x: auto;
   padding: 20px 0px;
   margin: auto;
-  width: 800px;
+  width: 65%;
   height: 650px;
   transition: width 2s;
 }
@@ -207,4 +207,14 @@ padding: 1.05%;
 .display_img img{
   height: 500px;
   width: auto;
+}
+
+
+#close_display{
+  color: #d5d94f!important;
+  opacity: .8!important;
+  position: absolute;
+  right: 30%;
+  top: 20%;
+
 }
