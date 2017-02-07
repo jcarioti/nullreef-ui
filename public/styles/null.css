@@ -25,7 +25,7 @@ position: relative;
 
 
 .jumbotron {
-  background-image: url(../images/prismacoralbg.jpeg);
+  background-image: url(../images/blackground.jpg);
   background-repeat: no-repeat;
   background-size: cover!important;
   margin:auto;
@@ -68,12 +68,12 @@ position: relative;
    }
 
    .pin-right {
-     right: -25px;
+     right: 75px;
      top: -3px;
      position: absolute;
    }
    .pin-left {
-
+    padding-left: 75px;
    }
 
    .navbar{
@@ -86,7 +86,7 @@ position: relative;
    ### PHOTO STYLING START ###
    ### STYLE FOR IFRAME GALLERY ###*/
 
-/*#gallery{
+#gallery{
   padding-top: 51px;
   position: fixed;
   padding-bottom: 10px;
@@ -100,7 +100,7 @@ position: relative;
 .contain iframe{
   height: 100%;
   width: 100%;
-}*/
+}
     /*###  STYLE FOR SELF-MADE GALLERY  ###*/
 
 

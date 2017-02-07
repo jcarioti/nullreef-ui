@@ -83,8 +83,14 @@ border-radius:10px;
 .retain a {
 color: maroon;
 }
-.retain p {
-  min-width: 265px;
+
+.container p{
+  width: 65%;
+  margin: 15px auto;
+}
+
+img:hover{
+  blue;
 }
 
 .bodycontainer {
@@ -95,7 +101,10 @@ color: maroon;
 
 .logo_cascade {
 width: 100%;
+opacity: .8;
+margin: 20px 10px;
 }
+
 .logo_cascade img {
   padding: 10px;
 }
@@ -124,6 +133,99 @@ width: 100%;
 
 }
 
+p, h1, a {
+  color: #750400!important;
+  opacity: .8;
+}
+
+.pod{
+margin: 10px auto;
+width: 50%;
+padding: 1.05%;
+/*overflow: scroll;*/
+}
+
+.retain {
+  border: 2px solid #e5e5e5;
+  padding-top: 15px;
+  margin: 5px 0px;
+  text-align: center;
+  line-height: 12px;
+}
+/** Header styles **/
+
+.header {
+  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  height: 400px;
+  background-position: center center;
+}
+
+
+
+/*-----------------------------------------------*/
+
+/*### CONTACT CSS BEGIN ###*/
+
+
+#img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+#img_cont img {
+  width: 100%;
+  max-width: 43px;
+  max-height: 43px;
+}
+
+i {
+  font-size: 45px!important;
+  color:grey;
+}
+#instagram:hover{
+  background: -webkit-linear-gradient(right top, #4c68d7, #8a3ab9, #bc2a8d, #cd486b, #fccc63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#facebook:hover{
+  color: 	#3b5998;
+}
+#twitter:hover{
+  color: #55acee;
+}
+
+
+   /*### CONTACT CSS END ###   */
+
+/*-----------------------------------------------*/
+
+   /*### NAVIGATION START ###   */
+
+.sidenav {
+  font-family: 'Covered By Your Grace', sans-serif;
+  align-items: center;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  word-spacing: 15px;
+  color: black;
+  width: 100%;
+  margin: 10 auto;
+  display: inline-block;
+}
+   /*### NAVIGATION END ###   */
+
+/*-----------------------------------------------*/
+
+/*###  PHOTO GALLERY CSS BEGIN ###*/
+
+
 .galleria {
   overflow-x: auto;
   padding: 20px 0px;
@@ -150,58 +252,7 @@ width: 100%;
 }
 .img-box{
   display: inline-block;
-}
-
-.pod{
-margin: 10px auto;
-width: 50%;
-padding: 1.05%;
-/*overflow: scroll;*/
-}
-
-.retain {
-  border: 2px solid #e5e5e5;
-  padding-top: 15px;
-  margin: 5px 0px;
-  text-align: center;
-  line-height: 12px;
-}
-/** Header styles **/
-
-.header {
-  background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
-  height: 400px;
-  background-position: center center;
-}
-
-.sidenav {
-  font-family: 'Covered By Your Grace', sans-serif;
-  align-items: center;
-  padding-bottom: 1%;
-  padding-top: 1%;
-  word-spacing: 15px;
-  color: black;
-  width: 100%;
-  margin: 10 auto;
-  display: inline-block;
-}
-
-#img_cont {
-  display: table;
-  width: 90%;
-  margin: 20px auto;
-}
-
-#img_cont a {
-  display: table-cell;
-  text-align: center;
-  width: 16%;
-}
-
-#img_cont img {
-  width: 100%;
-  max-width: 43px;
-  max-height: 43px;
+  padding: 1.5px;
 }
 
 .display_img img{
@@ -209,12 +260,73 @@ padding: 1.05%;
   width: auto;
 }
 
+.display_img{
+  display: none;
+}
 
 #close_display{
-  color: #d5d94f!important;
   opacity: .8!important;
   position: absolute;
-  right: 30%;
-  top: 20%;
-
+  right: 25%;
+  top: 12%;
 }
+
+/*###  PHOTO GALLERY CSS END ###*/
+
+/*-----------------------------------------------*/
+
+/*### This is for the hamburger menu  ###*/
+header{
+	width:100%;
+	background:#1d1f20;
+	height:60px;
+	line-height:60px;
+}
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:13px 15px 0px 15px;
+  color:#fff;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:absolute; text-align:center;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+.menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
+.menu ul li a:hover {  color: #fff; text-decoration:none;}
+.menu a{text-decoration:none; color:white;}
+.menu a:hover{text-decoration:none; color:white;}
+
+.glyphicon-home{
+  color:white;
+  font-size:1.5em;
+  margin-top:5px;
+  margin:0 auto;
+}
+/*### End of Hamburger Menu ### */
+
+/*-----------------------------------------------*/
