@@ -3,7 +3,8 @@
 }*/
 
 body {
-background-color: #292b2c!important; /*#292b2c*/
+/*background-color: #292b2c!important; */
+background-color: black!important;
 height: auto;
 width: 100%;
 margin: auto;
@@ -149,7 +150,8 @@ position: relative;
      margin: auto;
      display: flex;
      flex-direction: column;
-     line-height: 33px;
+     line-height: 68px;
+     padding-top: 22px;
      margin: 4px 5px;
    }
 
