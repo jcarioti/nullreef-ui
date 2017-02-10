@@ -70,7 +70,7 @@ position: relative;
 
    .pin-right {
      right: 75px;
-     top: -3px;
+     top: -10px;
      position: absolute;
    }
    .pin-left {
@@ -95,7 +95,6 @@ position: relative;
 }
 .contain{
   height: 100%;
-  padding-top: 25px;
 }
 
 .contain iframe{
@@ -104,7 +103,51 @@ position: relative;
 }
     /*###  STYLE FOR SELF-MADE GALLERY  ###*/
 
+    .galleria {
+      overflow-x: auto;
+      padding: 0px;
+      margin: auto;
+      width: 65%;
+      height: 650px;
+      transition: width 2s;
+    }
 
+    .galleria-strip{
+      /*overflow-x: auto;*/
+      display: flex;
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+      flex-direction: row;
+      transition: width 2s;
+    }
+
+    .galleria img, .galleria-strip img {
+      width: 150px;
+      height: 125px;
+      margin: 5px;
+      border-radius:10px;
+    }
+    .img-box{
+      display: inline-block;
+      padding: 1.5px;
+    }
+
+    .display_img img{
+      height: 500px;
+      width: auto;
+    }
+
+    .display_img{
+      display: none;
+    }
+
+    #close_display{
+      opacity: .8!important;
+      position: absolute;
+      right: 25%;
+      top: 12%;
+    }
 
    /*### PHOTO STYLING END ###
 
