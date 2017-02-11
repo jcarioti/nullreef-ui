@@ -7,14 +7,15 @@ $(document).ready(function () {
 function transition(){
   var src=$(this).attr("src");
   $(".display_img img").attr("src", src);
-  $(".display_img").show();
+  $(".display_img").removeClass("hidden");
   console.log(src)
   $(".group").addClass("galleria-strip");
   $(".group").removeClass("galleria");
 }
 
 function transition_back(){
-$(".display_img").hide();
+$(".display_img").addClass("hidden");
+
 // $("")
 $(".group").addClass("galleria");
 $(".group").removeClass("galleria-strip");
