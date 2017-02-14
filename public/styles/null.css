@@ -62,14 +62,15 @@ position: relative;
      padding: 10px 20px;
    }
    .select:hover{
-     color:#FFB87D;
+     color:white;
+     opacity: .5;
    }
    .bg-inverse{
      opacity: .85;
    }
 
    .pin-right {
-     right: 75px;
+     right: -2px;
      top: -10px;
      position: absolute;
    }
@@ -104,7 +105,7 @@ position: relative;
     /*###  STYLE FOR SELF-MADE GALLERY  ###*/
 
     .galleria {
-      /*overflow-x: auto;*/
+      overflow-x: auto;
       padding: 0px;
       margin: auto;
       transition: width 2s;
@@ -122,7 +123,7 @@ position: relative;
       position: fixed;
       bottom: 0px;
       flex-direction: row;
-      transition: width 2s;
+      transition:
     }
 
     .galleria img, .galleria-strip img {
