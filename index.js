@@ -27,12 +27,12 @@ app.get('/contact', (req, res) => {
   res.render('contact.ejs');
 });
 
-app.get('/photos2', (req, res) => {
-  res.render('photos2.ejs');
-});
+// app.get('/photos2', (req, res) => {
+//   res.render('photos2.ejs');
+// });
 
-app.get('/photos3', (req, res) => {
-  res.render('photos3.ejs');
-});
+// app.get('/photos3', (req, res) => {
+//   res.render('photos3.ejs');
+// });
 
 app.listen(8000);

@@ -106,7 +106,6 @@ position: relative;
       overflow-x: auto;
       padding: 0px;
       margin: auto;
-      transition: width 2s;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -121,7 +120,6 @@ position: relative;
       position: fixed;
       bottom: 0px;
       flex-direction: row;
-      transition:
     }
 
     .galleria img, .galleria-strip img {
@@ -294,7 +292,9 @@ position: relative;
   align-items: center;
 }
 
-
+.mini-preview-wrapper{
+  border-radius: 10px;
+}
 
 .pod{
 background-color: #B0D9ED;
