@@ -357,6 +357,10 @@ margin-left: -3.6rem;
   left: -195.5px!important;
 }
 
+.mini-preview-frame {
+ background-color: rgb(0,0,0) !important;
+}
+
 .pod{
 background-color: #B0D9ED;
 max-width: 75%;
