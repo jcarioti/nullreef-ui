@@ -9,7 +9,10 @@ background-color: black!important;
 height: auto;
 width: 100%;
 margin: auto;
-position: relative;
+}
+
+a:hover{
+  text-decoration: none!important;
 }
 
 .pull-down{
@@ -29,15 +32,24 @@ position: relative;
 .jumbotron {
   background-image: url(../images/blackground.jpg);
   background-repeat: no-repeat;
-  background-size: cover!important;
+  background-color: black;
+  background-size: contain!important;
   margin:auto;
   height: 100%;
   margin-bottom: 0px!important;
+
+}
+
+@media (max-width: 830px){
+.jumbotron{
+
+}
+
 }
 
 .bg {
   position: fixed;
-  top: 0;
+  bottom: -1;
   left: 0;
    z-index: -1;
   width: 100%;
@@ -54,6 +66,37 @@ position: relative;
      left:0px;
      padding: 0px;
    }
+
+.col{
+  display: flex;
+  align-items: center;
+}
+
+#live{
+  color: red;
+animation: flash linear 2s infinite;
+font-size: 1.2em!important;
+display: flex;
+align-items: center;
+margin-left: -3.6rem;
+}
+
+#livevideo{
+  /*margin-left: -1rem;*/
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 
    .select{
      font-size: 1.25em;
@@ -78,6 +121,7 @@ position: relative;
 
    .navbar{
      width:100%;
+    border-radius: 0!important;
    }
    /*### NAVIGATION STYING END ###
 
@@ -120,6 +164,7 @@ position: relative;
       position: fixed;
       bottom: 0px;
       flex-direction: row;
+      transition: width 2s;
     }
 
     .galleria img, .galleria-strip img {
@@ -226,7 +271,16 @@ position: relative;
      font-size: 45px!important;
      color:rgba(249, 250, 236, .8);
      opacity: .9;
+     margin-top: -5px;
    }
+   .pin-right a{
+     margin: 0px 8px;
+   }
+   .pin-right a:last-child{
+     margin-right: 0px;
+   }
+
+
    #instagram:hover{
      background: -webkit-linear-gradient(right top, #4c68d7, #8a3ab9, #bc2a8d, #cd486b, #fccc63);
      -webkit-background-clip: text;
@@ -273,10 +327,9 @@ position: relative;
  width: 55px;
  display: flex;
  justify-content: center;
- border: 1px solid black;
+ /*border: 1px solid black;*/
  border-radius: 5px;
- background: rgba(249, 250, 236, .8);
- color: black;
+ /*background: rgba(249, 250, 236, .8);*/
 }
 
 .button:hover {
@@ -294,6 +347,8 @@ position: relative;
 
 .mini-preview-wrapper{
   border-radius: 10px;
+  top: 54px!important;
+  left: -195.5px!important;
 }
 
 .pod{
