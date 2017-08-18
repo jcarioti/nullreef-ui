@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <% include partials/head.html %>
+    </head>
+    <body>
+        <% include partials/alt_navi.ejs %>
+        <div class="jumbotron bg">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+            </div>
+            <div class="col-4 visible-panel">
+              <div class="collect-info">
+                <h3>Linked!</h3>
+                <ul>
+                  <li>STATE: <%- state %></li>
+                  <li>REDIRECT URI: <%- redirect_uri %></li>
+                  <li>CODE: <%- code %></li>
+                  <li>EMAIL: <%- email %></li>
+                  <li>APEXID: <%- apexId %></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

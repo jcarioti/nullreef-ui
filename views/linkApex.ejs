@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <% include partials/head.html %>
+    </head>
+    <body>
+        <% include partials/alt_navi.ejs %>
+        <div class="jumbotron bg">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-7">
+            </div>
+            <div class="col-4 visible-panel">
+              <div class="collect-info">
+                <form id="link-accounts-form" method="POST" action="/apex-voice/accounts">
+                  <input type="hidden" name="_csrf" value="<%- csrfToken %>" />
+                  <input type="hidden" name="state" value="<%- state %>" />
+                  <input type="hidden" name="redirect_uri" value="<%- redirect_uri %>" />
+
+                  <label for="email">Email Address</label>
+                  <input id="email" type="email" name="email" onKeyUp="validate()" />
+
+                  <label for="apex-id">Apex ID</label>
+                  <input id="apex-id" type="text" name="apexId" onKeyUp="validate()" />
+
+                  <label for="alexa-user-authorized"><input type="checkbox" id="alexa-user-authorized" onChange="validate()" /> I've added AlexaVoice as a user of my APEX</label>
+
+                  <input id="submit" type="submit" value="Link Accounts" disabled />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

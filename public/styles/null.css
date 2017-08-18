@@ -6,9 +6,9 @@
 body {
 /*background-color: #292b2c!important; */
 background-color: black!important;
-height: auto;
+height: 100%;
 width: 100%;
-margin: auto;
+padding-top: 90px;
 }
 
 a:hover{
@@ -66,7 +66,6 @@ a:hover{
    ### NAVIGATION STYING START ### */
 
    #homelink{
-     font-size: 2.5em;
      left:0px;
      padding: 0px;
    }
@@ -120,13 +119,56 @@ margin-left: -3.6rem;
    .navcontain {
      margin: 0px;
      width: 100%;
+     padding: .25rem;
+     display: flex;
    }
 
+   .navcontain .title {
+     flex: 1;
+   }
+
+   #menu {
+     background: none;
+     border: none;
+   }
+
+   .visible-panel {
+     display: flex;
+     justify-content: center;
+   }
+
+   .collect-info {
+     width: 500px;
+     height: 350px;
+     background-color: rgba(100, 100, 100, .3);
+     border: solid 1px gray;
+     padding: .75rem;
+   }
+
+   #link-accounts-form {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+   }
+
+   #link-accounts-form label {
+     color: white;
+   }
+
+   #link-accounts-form input {
+     margin-bottom: 20px;
+   }
+
+   #link-accounts-form [type="submit"] {
+     display: flex;
+     justify-self: flex-end;
+   }
 
    .navbar{
-     width:100%;
+    width:100%;
     border-radius: 0!important;
     position: fixed;
+    background: none;
    }
    /*### NAVIGATION STYING END ###
 
